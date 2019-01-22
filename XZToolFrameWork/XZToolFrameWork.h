@@ -29,4 +29,10 @@ FOUNDATION_EXPORT const unsigned char XZToolFrameWorkVersionString[];
 #import <XZToolFrameWork/NSString+PingYing.h>
 #import <XZToolFrameWork/UIButton+UIControl_button.h>
 #import <XZToolFrameWork/UILabel+ChangeLineSpaceAndWordSpace.h>
+#import <XZToolFrameWork/NSObject+SXRuntime.h>
+#import <XZToolFrameWork/UINavigation+SXFixSpace.h>
+#import <XZToolFrameWork/UINavigationItem+SXFixSpace.h>
+#import <XZToolFrameWork/UIBarButtonItem+SXCreate.h>
+#import <XZToolFrameWork/UINavigationController+SXFullScreen.h>
+#import <XZToolFrameWork/LYTextView.h>
 
