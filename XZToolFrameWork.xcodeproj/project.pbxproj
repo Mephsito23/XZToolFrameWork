@@ -50,6 +50,18 @@
 		04CEC08E21F6B9DA00C941A4 /* NSDictionary+model.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEC07C21F6B9DA00C941A4 /* NSDictionary+model.m */; };
 		04CEC09121F6BE4400C941A4 /* SystemManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CEC08F21F6BE4400C941A4 /* SystemManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04CEC09221F6BE4400C941A4 /* SystemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEC09021F6BE4400C941A4 /* SystemManager.m */; };
+		04CEC0A521F6CC5800C941A4 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CEC09B21F6CC5500C941A4 /* UINavigation+SXFixSpace.h */; };
+		04CEC0A621F6CC5800C941A4 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CEC09C21F6CC5500C941A4 /* UINavigationController+SXFullScreen.h */; };
+		04CEC0A721F6CC5800C941A4 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEC09D21F6CC5500C941A4 /* UINavigationController+SXFullScreen.m */; };
+		04CEC0A821F6CC5800C941A4 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEC09E21F6CC5600C941A4 /* UINavigation+SXFixSpace.m */; };
+		04CEC0A921F6CC5800C941A4 /* UIBarButtonItem+SXCreate.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CEC09F21F6CC5600C941A4 /* UIBarButtonItem+SXCreate.h */; };
+		04CEC0AA21F6CC5800C941A4 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEC0A021F6CC5600C941A4 /* NSObject+SXRuntime.m */; };
+		04CEC0AB21F6CC5800C941A4 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CEC0A121F6CC5600C941A4 /* NSObject+SXRuntime.h */; };
+		04CEC0AC21F6CC5800C941A4 /* UINavigationItem+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CEC0A221F6CC5700C941A4 /* UINavigationItem+SXFixSpace.h */; };
+		04CEC0AD21F6CC5800C941A4 /* UINavigationItem+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEC0A321F6CC5700C941A4 /* UINavigationItem+SXFixSpace.m */; };
+		04CEC0AE21F6CC5800C941A4 /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEC0A421F6CC5700C941A4 /* UIBarButtonItem+SXCreate.m */; };
+		04CEC0B221F7023600C941A4 /* LYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CEC0B021F7023600C941A4 /* LYTextView.h */; };
+		04CEC0B321F7023600C941A4 /* LYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEC0B121F7023600C941A4 /* LYTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +107,18 @@
 		04CEC07C21F6B9DA00C941A4 /* NSDictionary+model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+model.m"; sourceTree = "<group>"; };
 		04CEC08F21F6BE4400C941A4 /* SystemManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemManager.h; sourceTree = "<group>"; };
 		04CEC09021F6BE4400C941A4 /* SystemManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemManager.m; sourceTree = "<group>"; };
+		04CEC09B21F6CC5500C941A4 /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
+		04CEC09C21F6CC5500C941A4 /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
+		04CEC09D21F6CC5500C941A4 /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
+		04CEC09E21F6CC5600C941A4 /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
+		04CEC09F21F6CC5600C941A4 /* UIBarButtonItem+SXCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SXCreate.h"; sourceTree = "<group>"; };
+		04CEC0A021F6CC5600C941A4 /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		04CEC0A121F6CC5600C941A4 /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		04CEC0A221F6CC5700C941A4 /* UINavigationItem+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+SXFixSpace.h"; sourceTree = "<group>"; };
+		04CEC0A321F6CC5700C941A4 /* UINavigationItem+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+SXFixSpace.m"; sourceTree = "<group>"; };
+		04CEC0A421F6CC5700C941A4 /* UIBarButtonItem+SXCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SXCreate.m"; sourceTree = "<group>"; };
+		04CEC0B021F7023600C941A4 /* LYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTextView.h; sourceTree = "<group>"; };
+		04CEC0B121F7023600C941A4 /* LYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +164,6 @@
 				04CEC06A21F6B9C800C941A4 /* Category */,
 				04CEC08F21F6BE4400C941A4 /* SystemManager.h */,
 				04CEC09021F6BE4400C941A4 /* SystemManager.m */,
-				04CEC05521F6B80300C941A4 /* View */,
 				04CEC03E21F6B6AD00C941A4 /* XZToolFrameWork.h */,
 				04CEC03F21F6B6AD00C941A4 /* Info.plist */,
 			);
@@ -159,6 +182,21 @@
 		04CEC05521F6B80300C941A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04CEC0AF21F7023600C941A4 /* LYTextView */,
+				04CEC0A121F6CC5600C941A4 /* NSObject+SXRuntime.h */,
+				04CEC0A021F6CC5600C941A4 /* NSObject+SXRuntime.m */,
+				04CEC09F21F6CC5600C941A4 /* UIBarButtonItem+SXCreate.h */,
+				04CEC0A421F6CC5700C941A4 /* UIBarButtonItem+SXCreate.m */,
+				04CEC09B21F6CC5500C941A4 /* UINavigation+SXFixSpace.h */,
+				04CEC09E21F6CC5600C941A4 /* UINavigation+SXFixSpace.m */,
+				04CEC09C21F6CC5500C941A4 /* UINavigationController+SXFullScreen.h */,
+				04CEC09D21F6CC5500C941A4 /* UINavigationController+SXFullScreen.m */,
+				04CEC0A221F6CC5700C941A4 /* UINavigationItem+SXFixSpace.h */,
+				04CEC0A321F6CC5700C941A4 /* UINavigationItem+SXFixSpace.m */,
+				04CEC07421F6B9D900C941A4 /* UIButton+UIControl_button.h */,
+				04CEC06F21F6B9D800C941A4 /* UIButton+UIControl_button.m */,
+				04CEC07821F6B9DA00C941A4 /* UILabel+ChangeLineSpaceAndWordSpace.h */,
+				04CEC07021F6B9D800C941A4 /* UILabel+ChangeLineSpaceAndWordSpace.m */,
 				04CEC05721F6B81200C941A4 /* UIAlertController+Creat.h */,
 				04CEC05A21F6B81200C941A4 /* UIAlertController+Creat.m */,
 				04CEC05921F6B81200C941A4 /* UIButton+Creat.h */,
@@ -174,6 +212,15 @@
 		04CEC06A21F6B9C800C941A4 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				04CEC09A21F6CC2300C941A4 /* Object */,
+				04CEC05521F6B80300C941A4 /* View */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04CEC09A21F6CC2300C941A4 /* Object */ = {
+			isa = PBXGroup;
+			children = (
 				04CEC07B21F6B9DA00C941A4 /* NSArray+ImageStrToImageArr.h */,
 				04CEC07621F6B9D900C941A4 /* NSArray+ImageStrToImageArr.m */,
 				04CEC06B21F6B9D800C941A4 /* NSDate+Compare.h */,
@@ -186,12 +233,17 @@
 				04CEC06C21F6B9D800C941A4 /* NSString+Extension.m */,
 				04CEC06E21F6B9D800C941A4 /* NSString+PingYing.h */,
 				04CEC07721F6B9DA00C941A4 /* NSString+PingYing.m */,
-				04CEC07421F6B9D900C941A4 /* UIButton+UIControl_button.h */,
-				04CEC06F21F6B9D800C941A4 /* UIButton+UIControl_button.m */,
-				04CEC07821F6B9DA00C941A4 /* UILabel+ChangeLineSpaceAndWordSpace.h */,
-				04CEC07021F6B9D800C941A4 /* UILabel+ChangeLineSpaceAndWordSpace.m */,
 			);
-			path = Category;
+			path = Object;
+			sourceTree = "<group>";
+		};
+		04CEC0AF21F7023600C941A4 /* LYTextView */ = {
+			isa = PBXGroup;
+			children = (
+				04CEC0B021F7023600C941A4 /* LYTextView.h */,
+				04CEC0B121F7023600C941A4 /* LYTextView.m */,
+			);
+			path = LYTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,16 +253,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CEC0AB21F6CC5800C941A4 /* NSObject+SXRuntime.h in Headers */,
 				04CEC08621F6B9DA00C941A4 /* UIButton+UIControl_button.h in Headers */,
+				04CEC0A521F6CC5800C941A4 /* UINavigation+SXFixSpace.h in Headers */,
 				04CEC09121F6BE4400C941A4 /* SystemManager.h in Headers */,
+				04CEC0AC21F6CC5800C941A4 /* UINavigationItem+SXFixSpace.h in Headers */,
 				04CEC08D21F6B9DA00C941A4 /* NSArray+ImageStrToImageArr.h in Headers */,
 				04CEC06521F6B81300C941A4 /* UILabel+Creat.h in Headers */,
 				04CEC07D21F6B9DA00C941A4 /* NSDate+Compare.h in Headers */,
+				04CEC0A921F6CC5800C941A4 /* UIBarButtonItem+SXCreate.h in Headers */,
+				04CEC0A621F6CC5800C941A4 /* UINavigationController+SXFullScreen.h in Headers */,
 				04CEC07F21F6B9DA00C941A4 /* NSString+Extension.h in Headers */,
 				04CEC08A21F6B9DA00C941A4 /* UILabel+ChangeLineSpaceAndWordSpace.h in Headers */,
 				04CEC08521F6B9DA00C941A4 /* NSDictionary+model.h in Headers */,
 				04CEC05F21F6B81300C941A4 /* UIAlertController+Creat.h in Headers */,
 				04CEC08421F6B9DA00C941A4 /* NSMutableArray+JsonArray.h in Headers */,
+				04CEC0B221F7023600C941A4 /* LYTextView.h in Headers */,
 				04CEC05E21F6B81300C941A4 /* UITextField+Creat.h in Headers */,
 				04CEC06121F6B81300C941A4 /* UIButton+Creat.h in Headers */,
 				04CEC08021F6B9DA00C941A4 /* NSString+PingYing.h in Headers */,
@@ -334,16 +392,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CEC0B321F7023600C941A4 /* LYTextView.m in Sources */,
 				04CEC08E21F6B9DA00C941A4 /* NSDictionary+model.m in Sources */,
+				04CEC0AA21F6CC5800C941A4 /* NSObject+SXRuntime.m in Sources */,
+				04CEC0A821F6CC5800C941A4 /* UINavigation+SXFixSpace.m in Sources */,
 				04CEC08321F6B9DA00C941A4 /* NSMutableArray+JsonArray.m in Sources */,
 				04CEC06221F6B81300C941A4 /* UIAlertController+Creat.m in Sources */,
 				04CEC08121F6B9DA00C941A4 /* UIButton+UIControl_button.m in Sources */,
 				04CEC09221F6BE4400C941A4 /* SystemManager.m in Sources */,
+				04CEC0AE21F6CC5800C941A4 /* UIBarButtonItem+SXCreate.m in Sources */,
+				04CEC0A721F6CC5800C941A4 /* UINavigationController+SXFullScreen.m in Sources */,
 				04CEC07E21F6B9DA00C941A4 /* NSString+Extension.m in Sources */,
 				04CEC08B21F6B9DA00C941A4 /* NSDate+Compare.m in Sources */,
 				04CEC08921F6B9DA00C941A4 /* NSString+PingYing.m in Sources */,
 				04CEC06321F6B81300C941A4 /* UIButton+Creat.m in Sources */,
 				04CEC06021F6B81300C941A4 /* UILabel+Creat.m in Sources */,
+				04CEC0AD21F6CC5800C941A4 /* UINavigationItem+SXFixSpace.m in Sources */,
 				04CEC06421F6B81300C941A4 /* UITextField+Creat.m in Sources */,
 				04CEC08821F6B9DA00C941A4 /* NSArray+ImageStrToImageArr.m in Sources */,
 				04CEC08221F6B9DA00C941A4 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
